@@ -3,6 +3,8 @@
 /*----- app's state (variables) -----*/
 
 let count = 0;
+let newCount;
+
 
 /*----- cached element references -----*/
 
@@ -21,13 +23,12 @@ minus.addEventListener("click", decrement);
 init();
 
 function increment() {
-let newCount = count + inputEl.value;
+newCount = count + inputEl.value;
 outcomeEl.innerHTML = newCount;
 }
 
 function decrement() {
-count--
-let newCount = count - inputEl.value;
+newCount = newCount - inputEl.value;
 outcomeEl.innerHTML = newCount;
 }
 
