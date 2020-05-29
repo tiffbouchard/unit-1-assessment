@@ -1,10 +1,39 @@
-section {
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-weight: bold;
+    font-size: 50px;
+}
+section { 
+    height: 100vh;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
-#count {
-    align-self: center;
+input {
+    border: solid rgb(177, 177, 177);
+    border-radius: 5px;
+    height: 50px;
+    width: 90px;
+    margin: 0 10px 0 10px;
 }
-#plus {
-    
+button {
+    background-color: rgb(177, 177, 177);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 30px;
+    height: 50px;
+    width: 50px;
+}
+button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(177, 177, 177);
+}
+input[type=text] {
+    text-align: center;
+    font-size: 30px;
 }

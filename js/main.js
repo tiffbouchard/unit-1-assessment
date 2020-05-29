@@ -2,7 +2,7 @@
 
 /*----- app's state (variables) -----*/
 
-let count;
+let count = 0;
 
 /*----- cached element references -----*/
 
@@ -29,11 +29,12 @@ outcomeEl.innerHTML = count;
 
 
 function decrement() {
-
+count = count + input.value--;
+outcomeEl.innerHTML = count;
 }
 
 
 function init() {
   input.defaultValue = 1;
-  outcomeEl.innerHTML = input.defaultValue;
+  outcomeEl.innerHTML = 0;
 }
