@@ -30,6 +30,9 @@ outcomeEl.innerHTML = newCount;
 function decrement() {
 newCount = newCount - inputEl.value;
 outcomeEl.innerHTML = newCount;
+if (newCount < 0) {
+  outcomeEl.style.color = "red";
+}
 }
 
 function init() {
