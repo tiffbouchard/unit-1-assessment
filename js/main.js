@@ -8,10 +8,8 @@ let count = 0;
 
 let plus = document.getElementById("plus");
 let minus = document.getElementById("minus");
-let input = document.getElementById("input");
+let inputEl = document.getElementById("input");
 let outcomeEl = document.getElementById("count");
-
-
 
 /*----- event listeners -----*/
 
@@ -23,18 +21,17 @@ minus.addEventListener("click", decrement);
 init();
 
 function increment() {
-count = count + input.value++;
-outcomeEl.innerHTML = count;
+let newCount = count + inputEl.value;
+outcomeEl.innerHTML = newCount;
 }
-
 
 function decrement() {
-count = count + input.value--;
-outcomeEl.innerHTML = count;
+count--
+let newCount = count - inputEl.value;
+outcomeEl.innerHTML = newCount;
 }
-
 
 function init() {
   input.defaultValue = 1;
-  outcomeEl.innerHTML = 0;
+  outcomeEl.innerHTML = count;
 }
