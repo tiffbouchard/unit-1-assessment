@@ -5,7 +5,6 @@
 let count = 0;
 let newCount;
 
-
 /*----- cached element references -----*/
 
 let plus = document.getElementById("plus");
@@ -23,12 +22,14 @@ minus.addEventListener("click", decrement);
 init();
 
 function increment() {
-newCount = count + inputEl.value;
+let input = parseInt(inputEl.value);
+newCount = count + input;
 outcomeEl.innerHTML = newCount;
 }
 
 function decrement() {
-newCount = newCount - inputEl.value;
+let input = parseInt(inputEl.value);
+newCount = newCount - input;
 outcomeEl.innerHTML = newCount;
 if (newCount < 0) {
   outcomeEl.style.color = "red";
