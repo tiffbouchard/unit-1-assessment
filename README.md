@@ -5,10 +5,10 @@ Created for the General Assembly's Software Engineering Immersive Unit 1 Assessm
 
 ### Screenshots 
 <img src="/images/main.png" alt="main"/>
-<img src="/images/add2.png" alt="add"/><img src="/images/add.png" alt="add"/>
 Add
-<img src="/images/subtract.png" alt="subtract"/><img src="/images/subtract2.png" alt="subtract"/>
+<img src="/images/add2.png" alt="add"/><img src="/images/add.png" alt="add"/>
 Subtract
+<img src="/images/subtract.png" alt="subtract"/><img src="/images/subtract2.png" alt="subtract"/>
 
 ### Instructions 
 1. Enter a number in the input 
