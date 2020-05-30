@@ -3,6 +3,11 @@
 
 Created for the General Assembly's Software Engineering Immersive Unit 1 Assessment 
 
+## Technologies Used:
+- HTML
+- CSS
+- Javascript
+
 ### Screenshots 
 <img src="/images/main.png" alt="main"/>
 Add
