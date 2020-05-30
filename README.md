@@ -3,7 +3,7 @@
 
 Created for the General Assembly's Software Engineering Immersive Unit 1 Assessment 
 
-## Technologies Used:
+### Technologies Used:
 - HTML
 - CSS
 - Javascript
