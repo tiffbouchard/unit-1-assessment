@@ -3,7 +3,7 @@
 /*----- app's state (variables) -----*/
 
 let count = 0;
-let newCount;
+let newCount = 0;
 
 /*----- cached element references -----*/
 
@@ -23,8 +23,11 @@ init();
 
 function increment() {
 let input = parseInt(inputEl.value);
-newCount = count + input;
+newCount = newCount + input;
 outcomeEl.innerHTML = newCount;
+if (newCount >= 0) {
+  outcomeEl.style.color = "black";
+  }
 }
 
 function decrement() {
@@ -33,7 +36,7 @@ newCount = newCount - input;
 outcomeEl.innerHTML = newCount;
 if (newCount < 0) {
   outcomeEl.style.color = "red";
-}
+  }
 }
 
 function init() {
