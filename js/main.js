@@ -1,5 +1,3 @@
-/*----- constants -----*/
-
 /*----- app's state (variables) -----*/
 
 let count = 0;
